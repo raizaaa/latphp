@@ -1,24 +1,17 @@
 <html>
-<head><title>Latihan Form</title></head>
+<head>
+    <title>Pengolahan form</title>
+</head>
 <body>
-<form action="" method="POST" name="input">
-Nama : <input type="text" name="nama"><br>
-Nilai1 : <input type="text" name="nilais"><br>
-Nilai2 : <input type="text" name="nilaid"><br>
-<input type="submit" name="Input" value="Input">
-<input type="submit" name="Resets" value="Hapus">
-</form>
+    <fieldset>
+    <legend>Sahabat-sahabat Dekatku</legend>
+    <form action="proses05.php" method="POST" name="input">
+        <input type="text" name="nama1"><br>
+        <input type="text" name="nama2"><br>
+        <input type="text" name="nama3"><br>
+        <input type="text" name="nama4"><br>
+        <input type="submit" name="Input" value="Input">
+        </form>
+    </fieldset>
 </body>
 </html>
-<?php
-if (isset($_POST['Input'])) {
-$nama = $_POST['nama'];
-$nilai1 = $_POST['nilais'];
-$nilai2 = $_POST['nilaid'];
-$rata = ($nilai1+$nilai2)/2;
-echo "Nama : <b>$nama</b><br>";
-echo "Nilai 1 : <b>$nilai1</b><br>";
-echo "Nilai 2 : <b>$nilai2</b><br>";
-echo "Nilai Rata-rata : <b>$rata</b><br>";
-}
-?>
