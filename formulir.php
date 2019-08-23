@@ -56,11 +56,11 @@
         </tr>
         <tr>
         <td>Hobby</td>
-        <td>:<input type="checkbox" name="hb1" value="Masak">Masak<br>
-            <input type="checkbox" name="hb2" value="Bernyanyi">Bernyanyi<br>
-            <input type="checkbox" name="hb3" value="Ngoding">Ngoding<br>
-            <input type="checkbox" name="hb4" value="Menari">Menari<br>
-            <input type="checkbox" name="hb5" value="Bermain">Bermain<br></td>
+        <td>:<input type="checkbox" name="hb1" value="Tidur">Tidur
+            <input type="checkbox" name="hb2" value="Nafas">Nafas
+            <input type="checkbox" name="hb3" value="Ngedip">Ngedip
+            <input type="checkbox" name="hb4" value="Makan">Makan
+            <input type="checkbox" name="hb5" value="Gerak">Gerak</td>
         </tr>
         <tr>
         <td>Agama</td>
