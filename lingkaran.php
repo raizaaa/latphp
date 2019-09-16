@@ -1,5 +1,6 @@
 <html>
-<head>    <title>Document</title>
+<head>
+    <title>Lingkaran</title>
 </head>
 <body>
     <fieldset>
